@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Cardo&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(images/islamic-44.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#overimage {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 173, 173, 0.3);
+    z-index: -2;
+    cursor: pointer;
+}
+
+.detail p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.bg-lite {
+    background-image: url(images/pattern-1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #299832;
+    opacity: 0.8; 
+}
+
+.bg {
+    height: 90px;
+    background-color: #006740;
+    border-top: 6px solid #d8ac54;
+}
+
+.nav-item i{
+    font-size: 26px;
+    color: #000000;
+}
+
+.home {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 700;
+}
+
+.list-group li a {
+    font-size: 0.8rem;
+    padding: 0px;
+}
+
+
+
+.bg-img-0 {
+    background-image: url('images/islamic-12.png');
+ }
+
+.bg-img-1 {
+   background-image: url('images/islamic-2.jpg');
+}
+
+.bg-img-2 {
+    background-image: url('images/islamic-5.jpg');
+}
+
+.bg-img-3 {
+    background-image: url('images/islamic-6.jpg');
+}
+
+.carousel-image {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fa-solid {
+    font-size: 1.2rem;
+    color: #0a0a0a;
+}
+
+.bookcard a {
+    position: relative;
+    top: 25px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5px;
+  }
+#grid > div {
+    font-size: 1rem;
+    margin: 8px;
+    background: #ddf9e1;
+    text-align: center;
+    border:  rgb(80, 80, 80);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.50);
+}
+
+#grid  {
+    overflow: hidden;
+    transition: 5s ease-in-out all;
+}
+
+#grid > div:hover {
+    transform: scale(1.01);
+}
+
+#hamburger {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#sidebar {
+    width: 0px;
+    height: 100vh;
+    background-color: rgb(41, 152, 50);
+    position: fixed;
+    z-index: 2;
+    top: 124px;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s ease;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+
+.sidebar-item{
+    text-decoration: none;
+    color: #f5f6f5;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(177, 176, 176);
+}
+
+.sidebar-item:hover {
+    background-color: rgb(200, 249, 208);
+}
+
+.sidebar-item > div {
+    padding: 0 1em;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+   /* footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #04852f;
+    border-top: 7px solid rgb(59, 58, 58);
+   } */
+.line {
+    border-top: 1px solid rgb(14, 198, 14);
+}
+   .box1 {
+    position: relative;
+    margin: 25px;
+   }
+
+   .box1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #fff;
+    z-index: 2;
+   }
+
+   .box1 i {
+    font-size: 2rem;
+    color: #fff;
+   }
+
+  
+
+ .footer {
+     height: auto;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     border-top: 8px solid #299832;
+ }
+
+.footer .overlay{
+    height: auto;
+    background-color: #1b6521;
+    opacity: 0.9;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 1px;
+    color: #fff;
+}
+
+.text, .fa-facebook, .fa-whatsapp, .fa-instagram, a {
+    line-height: 20px;
+    color: #fff;
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram {
+    vertical-align: bottom;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.text a{
+    text-decoration: none;
+}
+
+.text a:hover{
+    color: #a1a1a1;
+}
+
+.copyright {
+    height: 70px;
+}
+
+.copy-text{
+    color: #bbbbbb;
+    padding: 20px;
+    font-size: 0.8rem;
+}
